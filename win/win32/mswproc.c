@@ -6,10 +6,11 @@
  * code in the mswin port and the rest of the nethack game engine. 
 */
 
+#include "winMS.h"
+
 #include "hack.h"
 #include "dlb.h"
 #include "func_tab.h"   /* for extended commands */
-#include "winMS.h"
 #include "mhmap.h"
 #include "mhstatus.h"
 #include "mhtext.h"
@@ -24,6 +25,7 @@
 #include "mhmain.h"
 #include "mhfont.h"
 #include "resource.h"
+#include "decl.h"
 
 #define LLEN 128
 

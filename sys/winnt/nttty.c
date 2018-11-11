@@ -11,13 +11,14 @@
  *
  */
 
+#include "win32api.h"
+
 #ifdef WIN32CON
 #define NEED_VARARGS /* Uses ... */
 #include "hack.h"
 #include "wintty.h"
 #include <sys\types.h>
 #include <sys\stat.h>
-#include "win32api.h"
 
 void FDECL(cmov, (int, int));
 void FDECL(nocmov, (int, int));

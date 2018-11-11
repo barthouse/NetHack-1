@@ -11,11 +11,12 @@
 
 /* #pragma warning(4103:disable) */
 
-#include "hack.h"
-#include "tile.h"
 #ifndef __GNUC__
 #include "win32api.h"
 #endif
+
+#include "hack.h"
+#include "tile.h"
 
 /* #define COLORS_IN_USE MAXCOLORMAPSIZE       /* 256 colors */
 #if (TILE_X==32)

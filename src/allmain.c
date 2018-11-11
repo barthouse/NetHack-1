@@ -5,6 +5,7 @@
 /* various code that was replicated in *main.c */
 
 #include "hack.h"
+#include "decl.h"
 
 #ifndef NO_SIGNAL
 #include <signal.h>

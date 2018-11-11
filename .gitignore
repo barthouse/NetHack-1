@@ -26,3 +26,13 @@ _$*
 *.ln
 core
 # CVS default ignores end
+# Visual Studio ignores
+bin
+obj
+dat/dlb.lst
+dat/guioptions
+dat/porthelp
+.vs
+win/win32/*.bmp
+win/win32/nethack.ico
+#

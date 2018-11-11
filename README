@@ -1,3 +1,9 @@
+This is branch nethack-3.4.3-vs2017 of the barthouse\NetHackPublic repository.
+
+This branch contains the changes needed to build Vanilla v3.4.3 NetHack
+with Visual Studio 2017.  This branch contains no other changes.
+
+
                 NetHack 3.5.0 -- General information
 
 NetHack 3.5 is an enhancement to the dungeon exploration game NetHack.

@@ -9,6 +9,8 @@
  *
  */
 
+#include "win32api.h"
+
 #define NEED_VARARGS
 #include "hack.h"
 #include <dos.h>
@@ -16,7 +18,6 @@
 #include <direct.h>
 #endif
 #include <ctype.h>
-#include "win32api.h"
 #ifdef WIN32CON
 #include "wintty.h"
 #endif

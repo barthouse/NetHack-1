@@ -113,7 +113,12 @@ extern void FDECL(interject, (int));
 #define Rand()	rand()
 #endif
 
+#if defined(_MSC_VER)
+#define FCMASK	0600
+#else
 #define FCMASK	0660	/* file creation mask */
+#endif
+
 #define regularize	nt_regularize
 #define HLOCK "NHPERM"
 
